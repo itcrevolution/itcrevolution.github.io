@@ -1,0 +1,80 @@
+@import url('css/reset.css');
+
+@import url(http://fonts.googleapis.com/css?family=Montez);
+@import url(http://fonts.googleapis.com/css?family=Sofadi+One);
+
+html, 
+body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Sofadi One', cursive;
+}
+
+
+
+
+/* --- Banner -------------------------- */
+#banner{
+	width: 100%;
+	height: 100%;
+	background: url(images/banner.jpg) 0 0 repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+
+	#banner #overlay{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: url(images/overlay.png) 0 100% repeat-x;
+	}
+
+
+	#logo{
+		width: 100%;
+		position: absolute;
+		bottom: 10%;
+		z-index: 5;
+		text-align: center;
+	}
+	#logo img {
+		cursor: pointer;
+		display: inline-block;
+		width: 15%;
+		height: 15%;
+		
+	}
+	#logo h2{
+		margin: 0 auto;
+		text-align: center;
+		font-family: 'Montez', cursive;
+		font-size: 100px;
+		color: #FF7600;
+		text-shadow: 1px 1px 1px #000, 1px 2px 3px #555;
+	}
+
+	#logo #jobdesc{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 5px auto;
+		color: #ffffff;
+		font-size: 2em;
+		text-shadow: 1px 1px 1px #000;
+	}
+@media (max-width: 640px){
+	#banner{
+		height: 101%;
+		min-height: 350px;
+	}
+	#logo h2{
+		font-size: 50px ;
+	}
+	#logo #jobdesc{
+		font-size: 1.5em;
+	}
+}
+
+/* --- Banner -------------------------- */

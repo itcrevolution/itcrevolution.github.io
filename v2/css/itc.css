@@ -1,0 +1,294 @@
+.header {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.header .title {
+  font-size: 3em;
+  color: #272727;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 0 20px;
+}
+.header .title:before {
+  content: "";
+  position: absolute;
+  width: 140px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -70px;
+  height: 1px;
+  background: #ebebeb;
+}
+.header .title:after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: -11px;
+  left: 50%;
+  margin-left: -12px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  background: orange;
+}
+/*
+about */
+.progess-bars .progress {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: #e6e6e6;
+  height: 30px;
+  margin-bottom: 15px;
+}
+.progess-bars .progress-bar {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  line-height: 30px;
+  background: #e3722e;
+  text-transform: uppercase;
+}
+.our-team {
+  margin-top: 80px;
+}
+.our-team .team-member {
+  overflow: hidden;
+}
+.our-team .team-member .member-img {
+  width: 100%;
+  position: relative;
+}
+.our-team .team-member .member-img img {
+  width: 100%;
+  height: auto;
+}
+.our-team .team-member .member-img .overlay {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.our-team .team-member .member-img .overlay .social {
+  position: absolute;
+  top: 0;
+  left: -40px;
+}
+.our-team .team-member .member-img .overlay .social li {
+  display: inline-block;
+  float: left;
+  margin-right: 1px;
+}
+.our-team .team-member .member-img .overlay .social li a {
+  display: block;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.our-team .team-member .member-img .overlay .social li a:hover {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.our-team .team-member .member-img:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.our-team .team-member .inner-content {
+  background: whitesmoke;
+  border: 1px solid #d6d6d6;
+  border-top: 0;
+  padding: 20px;
+}
+.our-team .team-member .inner-content h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e3722e;
+  margin-bottom: 10px;
+}
+.our-team .team-member .inner-content span {
+  color: #9d9d9d;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/*
+end team
+ */
+
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 5e72402ba66848062a90569c12d35b16f2b1104c
+/*
+  Portfolio Styles 
+*/
+#portfolio {
+  padding-bottom: 80px;
+  margin-top: 100px;
+  background-color: #3498db;
+}
+.warna{
+  color: white;
+}
+#portfolio .title-section h2 {
+  color: white;
+}
+#portfolio .portfolio-thumb {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+#portfolio .portfolio-thumb img {
+  width: 100%;
+  height: auto;
+}
+#portfolio .portfolio-thumb .overlay {
+  opacity: 0;
+  visibility: visible;
+  background: rgba(227, 114, 46, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#portfolio .portfolio-thumb .overlay .inner {
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+#portfolio .portfolio-thumb .overlay .inner h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#portfolio .portfolio-thumb .overlay .inner h4 a {
+  color: white;
+}
+#portfolio .portfolio-thumb .overlay .inner span {
+  font-weight: 300;
+  color: white;
+}
+#portfolio .portfolio-thumb:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+/*
+End Portfolio Styles 
+ */
+
+/*
+Contact Us
+ */
+
+/*------------------------------------------------------
+  Contact Styles 
+--------------------------------------------------------*/
+.bg{
+  background-color: #2c3e50;
+}
+.contact-form .full-row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact-form input, .contact-form textarea {
+  outline: 0;
+  display: block;
+  border: 1px solid #cccccc;
+  width: 100%;
+  max-width: 100%;
+  padding: 8px 10px;
+  color: #777777;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.contact-form input.mainBtn {
+  display: inline-block;
+  width: auto;
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  background-color: #d35400;
+  margin-bottom: 20px;
+}
+.contact-info {
+  margin-top: 60px;
+  color: white;
+<<<<<<< HEAD
+  margin-bottom: 20px;
+=======
+>>>>>>> 5e72402ba66848062a90569c12d35b16f2b1104c
+}
+.contact-info span {
+  margin-top: 20px;
+  display: block;
+  font-size: 1.1em;
+}
+.contact-info span i {
+  color: #e3722e;
+  margin-right: 10px;
+}
+/*
+End Contact Us
+ */
+
+
+/*
+  Footer Styles 
+*/
+.site-footer {
+  background-color: #e3722e;
+  color: white;
+  padding: 25px 0;
+}
+.site-footer p {
+  margin-top: 10px;
+  color: white;
+}
+
+<<<<<<< HEAD
+
+@media (min-width: 768px) { 
+  .our-team .col-sm-6 {
+    margin-top: 20px; 
+  }
+}
+
+@media (min-width: 360px) { 
+ .our-team .col-xs-12{
+  margin-top: 20px;
+ }
+
+ .site-footer {
+  text-align: center;
+  }
+=======
+.site-footer p .agprasha{
+  margin-left: -50px;
+>>>>>>> 5e72402ba66848062a90569c12d35b16f2b1104c
+}
